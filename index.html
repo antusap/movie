@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top ">
+        <div class="container-fluid ms-5 me-5">
+            <a class="navbar-brand"><img src="./img/logo.png" alt="logo" class="w-50 ms-3"></a>
+            <div class="d-flex ms-5 col-6 justify-content-center"><input class="form-control me-2" type="search"
+                    placeholder="Search The Directors" aria-label="Search" />
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Enter the E-mail" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Login</button>
+            </form>
+        </div>
+        <div class="w-100 d-flex justify-content-between ms-3 me-3 mt-3 p-2">
+            <div class=" col-2 text-center">HOME</div>
+            <div class=" col-2 ms-1 text-center"><a class="nav-link dropdown-toggle" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    GENRES
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Comedy</a></li>
+                    <li><a class="dropdown-item" href="#">Thriller</a></li>
+                    <li><a class="dropdown-item" href="#">Horror</a></li>
+                </ul>
+            </div>
+            <div class=" col-2 ms-1 text-center">TV-SERIES</div>
+            <div class=" col-2 ms-1 text-center">NEWS</div>
+            <div class=" col-2 ms-1 text-center"><a class="nav-link dropdown-toggle" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Directors
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#JOSHIY">Joshiy</a></li>
+                    <li><a class="dropdown-item" href="#Ranjith">Ranjith</a></li>
+                    <li><a class="dropdown-item" href="#Vineeth">Vineeth Sreenivasan</a></li>
+                    <li><a class="dropdown-item" href="#LJP">LJP</a></li>
+                </ul>
+            </div>
+            <div class=" col-2 ms-1 text-center">About Us</div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <br><br><br><br><br><br>
+    
+    <div id="carouselExampleCaptions" class="carousel slide w-75 mt-5 ms-auto me-auto
+    " data-bs-ride="carousel">
+        <div class="carousel-indicators"><div id="JOSHIY"></div>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item " data-bs-interval="2000">
+                <img src="./img/joshiy.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>JOSHIY</h5>
+                    <p>Joshiy is an Indian film director and screenwriter who works predominantly in Malayalam cinema
+                        and also directed Tamil, Hindi, Telugu and Kannada-language films.</p>
+                </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./img/ranjith.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>RANJITH</h5>
+                    <p >Ranjith Balakrishnan is an Indian film director, screenwriter, producer, and actor who works in
+                        Malayalam cinema. </p>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+                <img src="./img/vineeth+sreenivasan.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>VINEETH SREENIVASAN</h5>
+                    <p>Vineeth Sreenivasan is an Indian actor, director, producer, dubbing artist, screenwriter,
+                        playback singer and lyricist who predominantly works in Malayalam cinema. </p>
+                </div>
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+                <img src="./img/ljpp.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>LIJO JOSE PELLISSERY</h5>
+                    <p>Lijo Jose Pellissery is an Indian filmmaker and actor who works in Malayalam cinema.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--  1 joshy-->
+    <hr>
+    <section id="latest" class="container">
+        <h2 class="text-left mb-4 mt-5"><img src="./img/line.jpg" alt="line" class="me-2">JOSHIY</h2>
+
+        <div class="row g-4">
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/porinju.jpg" class="card-img-top" alt="Porinju Mariam Jose" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Porinju Mariam Jose</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/christian brothers.jpg" class="card-img-top" alt="Christian Brothers" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Christian Brothers</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Robin_Hood_Malayalam.jpg" class="card-img-top" alt="Robin Hood" />
+                    <div class="card-body text-center">
+                        <h5 id="Ranjith" class="card-title">Robin Hood</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/20twenty.jpg" class="card-img-top" alt="Twenty:20" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Twenty:20</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/naran.jpg" class="card-img-top" alt="Naran" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Naran</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/runway-2004.jpg" class="card-img-top" alt="Runway" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Runway</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2 ranjith-->
+    <section id="latest" class="container">
+        <h2 class="text-left mb-4 mt-5"><img src="./img/line.jpg" alt="line" class="me-2">RANJITH</h2>
+
+        <div class="row g-4">
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Pranchiyettan_&_the_Saint.jpg" class="card-img-top"
+                        alt="Pranchiyettan and The Saint" />
+                    <div class="card-body text-center">
+                        <h5 id="Vineeth" class="card-title">Pranchiyettan and The Saint</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Black_(Malayalam_film).jpg" class="card-img-top" alt="Black" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Black</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Raavanaprabhu.jpg" class="card-img-top" alt="Ravanaprabhu" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ravanaprabhu</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Narasimham_(film).jpg" class="card-img-top" alt="Narasimham" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Narasimham</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Valliettan.jpg" class="card-img-top" alt="	Valyettan" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Valyettan</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/ar.jpg" class="card-img-top" alt="Aaraam Thampuran" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Aaraam Thampuran</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- 3 vineeth-->
+    <section id="latest" class="container">
+        <h2 class="text-left mb-4 mt-5"><img src="./img/line.jpg" alt="line" class="me-2">VINEETH
+            SREENIVASAN</h2>
+
+        <div class="row g-4">
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Varshangalkku_Shesham_film_poster.jpeg" class="card-img-top"
+                        alt="Varshangalkku Shesham" />
+                    <div class="card-body text-center">
+                        <h5 id="LJP" class="card-title">Varshangalkku Shesham</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Hridayam.jpg" class="card-img-top" alt="Hridayam" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hridayam</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Jacobinte_Swargarajyam_poster.jpg" class="card-img-top"
+                        alt="Jacobinte Swargarajyam" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Jacobinte Swargarajyam</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Thiramovieposter.jpg" class="card-img-top" alt="Thira" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Thira</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/thattathin.jpg" class="card-img-top" alt="	Thattathin Marayathu" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> Thattathin Marayathu</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/mva.jpg" class="card-img-top" alt="Malarvaadi Arts Club" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Malarvaadi Arts Club</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4 LJP-->
+    <section id="latest" class="container">
+        <h2 class="text-left mb-4 mt-5"><img src="./img/line.jpg" alt="line" class="me-2">LIJO JOSE PELLISSERY
+        </h2>
+
+        <div class="row g-4">
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Nanpakal_Nerathu_Mayakkam_Title.jpeg" class="card-img-top"
+                        alt="Nanpakal Nerathu Mayakkam" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Nanpakal Nerathu Mayakkam</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Churuli.jpeg" class="card-img-top" alt="Churuli" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Churuli</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Angamaly_Diaries_Official_Poster.jpg" class="card-img-top" alt="Angamaly Diaries" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Angamaly Diaries</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Darvinte_Parinamam_Theatrical_Poster.jpg" class="card-img-top"
+                        alt="Darvinte Parinamam" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Darvinte Parinamam</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Sapthamashree_Thaskaraha_poster.jpg" class="card-img-top"
+                        alt="Sapthamashree Thaskaraha" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sapthamashree Thaskaraha</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card h-100 bg-body-secondary zoom">
+                    <img src="./img/Amen_2013_poster.jpg" class="card-img-top" alt="Amen" />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Amen</h5>
+                        <button class="btn btn-outline-info" type="submit">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="py-5 bg-secondary mt-4">
+        <div class="row">
+            <div class="col-md-5 offset-md-1 mb-3 text-light ms-auto me-auto">
+                <form>
+                    <h5 class="text-center">Feedback..</h5>
+                    <p class="text-center">Are u enjoyed this web page ?</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                            class="visually-hidden ">Feedback</label> <input id="newsletter1" type="text"
+                            class="form-control" placeholder="Feedback" fdprocessedid="t18qd"> <button
+                            class="btn btn-primary" type="button" fdprocessedid="7dv1g5">Submit</button>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-sm-row justify-content-center border-top text-light">
+            <p>© 2025 Company, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</html>
